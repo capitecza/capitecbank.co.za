@@ -1,0 +1,1 @@
+$(document).ready(function(){$('.toolTip').on('click',function(){$(this).find('span').slideToggle();return false;});$('.toolTipClose').on('click',function(){$(this).parent().fadeOut();return false;});$('.toolTip').find('.editableText').on('click',function(){return false;});$("form input").focus(function(){$(".toolTip span").fadeOut();return false;});});
